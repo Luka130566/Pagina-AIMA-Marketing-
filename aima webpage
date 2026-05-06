@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>AIMA Marketing Digital</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f');
+            background-size: cover;
+            background-position: center;
+            color: white;
+        }
+
+        .contenedor {
+            width: 100%;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            background: rgba(0,0,0,0.7);
+            padding: 15px;
+        }
+
+        header img {
+            width: 120px;
+        }
+
+        .contenido {
+            text-align: center;
+            padding: 80px;
+        }
+
+        .contenido a {
+            background: #ff6600;
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        footer {
+            background: rgba(0,0,0,0.8);
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contenedor">
+
+        <!-- HEADER -->
+        <header>
+            <img src="https://via.placeholder.com/120x60?text=AIMA+Logo" alt="Logo">
+        </header>
+
+        <!-- BODY -->
+        <div class="contenido">
+            <h1>Bienvenido a AIMA Marketing Digital</h1>
+            <p>Conoce nuestros servicios</p>
+
+            <a href="https://www.youtube.com/" target="_blank">
+                Ver video de nuestros servicios
+            </a>
+        </div>
+
+        <!-- FOOTER -->
+        <footer>
+            <p>Curso: Desarrollo Web</p>
+            <p>Nombre: Alma Nallely Maldonado Aguilar</p>
+            <p>Código: 123456</p>
+            <p>Email: contacto@aimamarketing.com</p>
+        </footer>
+
+    </div>
+</body>
+</html>
